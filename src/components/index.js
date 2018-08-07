@@ -22,11 +22,9 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
 
-module.exports = {
+export default {
     version: '1.0.0',
     TdLocation,
     TdFooter,
     TdLeftNav
-};
-
-module.exports.default = module.exports;
+}

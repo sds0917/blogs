@@ -24,6 +24,7 @@
     <% for (const key in htmlWebpackPlugin.options.extDependencies) { %>
     <%='<script type="text/javascript" src="{}"></script>'.replace('{}', htmlWebpackPlugin.options.extDependencies[key].url)%>
     <% } %>
+    <script type="text/javascript" src="/common/scripts/jquery.clock.js"></script>
 </body>
 
 </html>

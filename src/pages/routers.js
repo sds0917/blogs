@@ -17,6 +17,11 @@ export default [
                 component: _import('pages/page/QuanXian')
             },
             {
+                path: 'test',
+                name: '测试',
+                component: _import('pages/page/Test')
+            },
+            {
                 path: '/',
                 redirect: '/demo/hello'
             }

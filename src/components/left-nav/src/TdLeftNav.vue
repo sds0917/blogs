@@ -7,6 +7,7 @@
             </template>
             <el-menu-item index="hello" route="hello">用户管理</el-menu-item>
             <el-menu-item index="quanxian" route="quanxian">权限管理</el-menu-item>
+            <el-menu-item index="test" route="test">测试</el-menu-item>
         </el-submenu>
     </el-menu>
 </template>
